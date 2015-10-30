@@ -1,0 +1,154 @@
+{
+  "data": {
+    "todo": [
+      {
+        "status": "new",
+        "megbizott": "Akárki",
+        "description": "jó",
+        "date": "2015-10-29T15:29:02.660Z",
+        "createdAt": "2015-10-29T15:29:02.663Z",
+        "updatedAt": "2015-10-30T15:47:30.983Z",
+        "id": 2
+      },
+      {
+        "status": "new",
+        "megbizott": "admin",
+        "description": "fasza",
+        "date": "2015-10-29T15:29:12.413Z",
+        "createdAt": "2015-10-29T15:29:12.414Z",
+        "updatedAt": "2015-10-29T15:29:12.414Z",
+        "id": 3
+      },
+      {
+        "status": "new",
+        "megbizott": "Akárki",
+        "description": "new\r\nline\r\ntest",
+        "date": "2015-10-29T21:16:14.463Z",
+        "createdAt": "2015-10-29T21:16:14.465Z",
+        "updatedAt": "2015-10-29T21:16:14.465Z",
+        "id": 4
+      },
+      {
+        "status": "new",
+        "megbizott": "Akárki",
+        "description": "semmi",
+        "date": "2015-10-30T13:32:03.812Z",
+        "createdAt": "2015-10-30T13:32:03.814Z",
+        "updatedAt": "2015-10-30T13:32:03.814Z",
+        "id": 5
+      },
+      {
+        "status": "new",
+        "megbizott": "Akárki",
+        "description": "jó",
+        "date": "2015-10-30T14:21:44.523Z",
+        "createdAt": "2015-10-30T14:21:44.526Z",
+        "updatedAt": "2015-10-30T14:21:44.526Z",
+        "id": 6
+      },
+      {
+        "status": "new",
+        "megbizott": "admin",
+        "description": "sad",
+        "date": "2015-10-30T14:23:22.117Z",
+        "createdAt": "2015-10-30T14:23:22.119Z",
+        "updatedAt": "2015-10-30T14:23:22.119Z",
+        "id": 7
+      }
+    ],
+    "user": [
+      {
+        "forename": "admin",
+        "password": "$2a$10$jS3GPSQZFtHbCurR9iRQT.EySh1oNUGPq20.l9PeyB9mfzj.AADmy",
+        "role": "parent",
+        "createdAt": "2015-10-29T10:11:09.628Z",
+        "updatedAt": "2015-10-29T10:11:09.628Z",
+        "id": 1
+      },
+      {
+        "forename": "teszt",
+        "password": "$2a$10$6TslWTnS7t5rVMkfOzPol.w8wQcgPWcO9.sYE9dUgpqkO.6bDai42",
+        "role": "child",
+        "createdAt": "2015-10-30T13:05:36.847Z",
+        "updatedAt": "2015-10-30T13:05:36.847Z",
+        "id": 2
+      }
+    ]
+  },
+  "schema": {
+    "todo": {
+      "date": {
+        "type": "datetime"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "new",
+          "success",
+          "rejected",
+          "pending"
+        ]
+      },
+      "megbizott": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "password": {
+        "type": "string"
+      },
+      "forename": {
+        "type": "string"
+      },
+      "role": {
+        "type": "string",
+        "enum": [
+          "child",
+          "parent"
+        ],
+        "defaultsTo": "child"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "todo": {
+      "id": 7
+    },
+    "user": {
+      "id": 2
+    }
+  }
+}

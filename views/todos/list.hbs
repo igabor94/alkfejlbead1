@@ -1,0 +1,44 @@
+{{#each messages}}
+<div class="alert alert-dismissible alert-success">
+    <button type="button" class="close" data-dismiss="alert">×</button>
+    {{this}}
+</div>
+{{/each}}
+
+<div class="page-header">
+    <h1>TODO-k</h1>
+</div>
+
+<table class="table table-striped table-hover ">
+    <thead>
+        <tr>
+            <th>Időpont</th>
+            <th>Státusz</th>
+            <th>Megbízott</th>
+            <th>Leírás</th>
+            <th>Módosít</th>
+        </tr>   
+    </thead>
+    <tbody>
+        {{#each todos}}
+        <tr>
+            <td>{{date}}</td>
+            <td><span class="label label-{{statusClass}}">{{statusText}}</span></td>
+            <td>{{megbizott}}</td>
+            <td style="max-width:500px;word-wrap: break-word;"><span class="badge">{{numberOfMessages}}</span> {{breaklines description}}</td>
+            <td>
+            {{#if canDelete}}
+            <a href="del/{{id}}" class="btn btn-primary">Töröl</a>
+            {{/if}}
+            {{#if canChange}}
+            <a href="edit/{{id}}" class="btn btn-primary">Módosít</a>
+            {{else}}
+            -
+            {{/if}}
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+
+<p><a href="/todos/new" class="btn btn-default">Új feladat felvitele</a></p>

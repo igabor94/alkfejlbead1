@@ -1,0 +1,15 @@
+[<actor>Vendég] - [<usecase>főoldal]
+[<actor>Vendég] - [<usecase>bejelentkezés]
+
+[<actor>gyerek] --> [<actor>Vendég]
+[<actor>gyerek] - [<usecase>feladatok megtekintése]
+[<actor>gyerek] - [<usecase>feladat felvitele]
+[<actor>gyerek] - [<usecase>feladat állapot szerkesztése]
+[<actor>gyerek] - [<usecase>kijelentkezés]
+
+[<actor>szülő] --> [<actor>gyerek]
+[<actor>szülő] - [<usecase>feladat szerkesztése]
+[<actor>szülő] - [<usecase>feladat törlése]
+
+[<usecase>feladat szerkesztése] --> extends[<usecase>feladat állapot szerkesztése]
+[<usecase>bejelentkezés] --> extends[<usecase>regisztráció]

@@ -52,7 +52,7 @@ Téma: Családi TODO
 
 ### Architektúra terv
 - #### Komponensdiagram
-	TODO
+TODO
 - #### Oldaltérkép
 	- **Publikus:**
 	    - Főoldal
@@ -82,39 +82,39 @@ Téma: Családi TODO
     - GET /todos/delete/:id: feladat törlése
 
 ### Felhasználóifelület-modell
-- ####  Oldalvázlatok
-    -Főoldal
+- #### Oldalvázlatok
+    - Főoldal
         ![Főoldal](docs/images/vazlat_fooldal.jpg)
-    -Bejelentkezés
+    - Bejelentkezés
         ![Bejelentkezés](docs/images/vazlat_login.jpg)
-    -Regisztráció
+    - Regisztráció
         ![Regisztráció](docs/images/vazlat_reg.jpg)
-    -Feladatok
+    - Feladatok
         ![Feladatok](docs/images/vazlat_list.jpg)
-    -Új feladat
+    - Új feladat
         ![Új feladat](docs/images/vazlat_new.jpg)
-    -Feladat módosítás
+    - Feladat módosítás
         ![Feladat módosítás](docs/images/vazlat_edit.jpg)
 
-- ####  Designterv
-    -Főoldal
+- #### Designterv
+    - Főoldal
         ![Főoldal](docs/images/kesz_fooldal.png)
-    -Bejelentkezés
+    - Bejelentkezés
         ![Bejelentkezés](docs/images/kesz_login.png)
-    -Regisztráció
+    - Regisztráció
         ![Regisztráció](docs/images/kesz_reg.png)
-    -Feladatok
+    - Feladatok
         ![Feladatok](docs/images/kesz_list.png)
-    -Új feladat
+    - Új feladat
         ![Új feladat](docs/images/kesz_new.png)
-    -Feladat módosítás
+    - Feladat módosítás
         ![Feladat módosítás](docs/images/kesz_edit.png)
 
 ### Osztálymodell
 - #### Adatmodell
-    ![Adatmodell](docs/images/adatmodell.png)
+![Adatmodell](docs/images/adatmodell.png)
 - #### Adatbázisterv
-    ![adatbázisterv](docs/images/adatbazisterv.png)
+![adatbázisterv](docs/images/adatbazisterv.png)
 - #### Állapotdiagram
 
 ### Dinamikus működés

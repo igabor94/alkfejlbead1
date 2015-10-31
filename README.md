@@ -112,11 +112,11 @@ TODO
 
 ### Osztálymodell
 #### Adatmodell
-    ![Adatmodell](docs/images/adatmodell.png)
+![Adatmodell](docs/images/adatmodell.png)
 #### Adatbázisterv
-    ![Adatbázisterv](docs/images/adatbazisterv.png)
+![Adatbázisterv](docs/images/adatbazisterv.png)
 #### Állapotdiagram
-    ![Állapotdiagram](docs/images/allapotdiag.png)
+![Állapotdiagram](docs/images/allapotdiag.png)
 
 ### Dinamikus működés
 - #### Szekvenciadiagram

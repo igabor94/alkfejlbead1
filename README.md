@@ -118,8 +118,10 @@ TODO
 #### Állapotdiagram
 ![Állapotdiagram](docs/images/allapotdiag.png)
 
+
 ### Dinamikus működés
 - #### Szekvenciadiagram
+![Szekvenciadiagram](docs/images/szekv.png)
 
 
 ## Implementáció

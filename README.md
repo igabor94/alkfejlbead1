@@ -77,9 +77,9 @@ TODO
     - GET /todos/list: feladatok listázása
     - GET /todos/new: új feladat bejegyzése
     - POST /todos/new: újonnan bejegyzett adat feldolgozása
-    - GET /todos/edit/:id: feladat szerkesztése
-    - POST /todos/edit/:id: szerkesztett adat feldolgozása
-    - GET /todos/delete/:id: feladat törlése
+    - GET /todos/edit/id: feladat szerkesztése
+    - POST /todos/edit/id: szerkesztett adat feldolgozása
+    - GET /todos/delete/id: feladat törlése
 
 ### Felhasználóifelület-modell
 - #### Oldalvázlatok
@@ -111,11 +111,12 @@ TODO
         ![Feladat módosítás](docs/images/kesz_edit.png)
 
 ### Osztálymodell
-- #### Adatmodell
-![Adatmodell](docs/images/adatmodell.png)
-- #### Adatbázisterv
-![adatbázisterv](docs/images/adatbazisterv.png)
-- #### Állapotdiagram
+#### Adatmodell
+    ![Adatmodell](docs/images/adatmodell.png)
+#### Adatbázisterv
+    ![Adatbázisterv](docs/images/adatbazisterv.png)
+#### Állapotdiagram
+    ![Állapotdiagram](docs/images/allapotdiag.png)
 
 ### Dinamikus működés
 - #### Szekvenciadiagram

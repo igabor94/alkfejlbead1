@@ -51,8 +51,6 @@ Téma: Családi TODO
 ## Tervezés
 
 ### Architektúra terv
-- #### Komponensdiagram
-TODO
 - #### Oldaltérkép
 	- **Publikus:**
 	    - Főoldal

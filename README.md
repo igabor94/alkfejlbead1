@@ -134,14 +134,8 @@ TODO
 - node_modules: szükséges modulok
 
 ## Tesztelés
-Automatikus tesztek szükségesek. Nem kell teljeskörű tesztelés, a hallgató mutassa meg, hogy képes ilyen tesztek írására.
-
-### Tesztelési környezet bemutatása
-### Egységtesztek: legalább 1 adatmodell tesztelése
-### Funkcionális felületi tesztek: legalább 1 folyamat tesztelése
-- ####  VAGY: Selenium IDE használatával
-- ####  VAGY: zombie.js használatával
-### Tesztesetek felsorolása: milyen eseteket próbált végig a hallgató
+Tesztelés zombie.js használatával
+![Teszt](docs/images/teszt.png)
 
 
 ## Felhasználói dokumentáció

@@ -19,10 +19,6 @@ module.exports = {
         description: {
             type: 'string',
             required: true,
-        },
-        
-        user: {
-            model: 'user',
-        },
+        }
     }
 }

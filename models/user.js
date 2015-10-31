@@ -19,11 +19,6 @@ module.exports = {
             defaultsTo: 'child'
         },
         
-        errors: {
-            collection: 'todo',
-            via: 'user'
-        },
-        
         validPassword: function (password) {
             return bcrypt.compareSync(password, this.password);
         }

@@ -2,76 +2,57 @@
   "data": {
     "todo": [
       {
-        "status": "new",
+        "status": "success",
         "megbizott": "Akárki",
-        "description": "jó",
-        "date": "2015-10-29T15:29:02.660Z",
-        "createdAt": "2015-10-29T15:29:02.663Z",
-        "updatedAt": "2015-10-30T15:47:30.983Z",
+        "description": "első feladat\r\nleírása",
+        "date": "2015-10-31T09:57:32.768Z",
+        "createdAt": "2015-10-31T09:57:32.770Z",
+        "updatedAt": "2015-10-31T09:58:25.963Z",
+        "id": 1
+      },
+      {
+        "status": "success",
+        "megbizott": "gábor",
+        "description": "Beadandó feladat elkészítése",
+        "date": "2015-10-31T09:59:19.937Z",
+        "createdAt": "2015-10-31T09:59:19.938Z",
+        "updatedAt": "2015-10-31T10:05:31.158Z",
         "id": 2
       },
       {
-        "status": "new",
-        "megbizott": "admin",
-        "description": "fasza",
-        "date": "2015-10-29T15:29:12.413Z",
-        "createdAt": "2015-10-29T15:29:12.414Z",
-        "updatedAt": "2015-10-29T15:29:12.414Z",
+        "status": "pending",
+        "megbizott": "gábor",
+        "description": "Dokumentáció készítése",
+        "date": "2015-10-31T10:04:49.257Z",
+        "createdAt": "2015-10-31T10:04:49.258Z",
+        "updatedAt": "2015-10-31T10:05:43.591Z",
         "id": 3
-      },
-      {
-        "status": "new",
-        "megbizott": "Akárki",
-        "description": "new\r\nline\r\ntest",
-        "date": "2015-10-29T21:16:14.463Z",
-        "createdAt": "2015-10-29T21:16:14.465Z",
-        "updatedAt": "2015-10-29T21:16:14.465Z",
-        "id": 4
-      },
-      {
-        "status": "new",
-        "megbizott": "Akárki",
-        "description": "semmi",
-        "date": "2015-10-30T13:32:03.812Z",
-        "createdAt": "2015-10-30T13:32:03.814Z",
-        "updatedAt": "2015-10-30T13:32:03.814Z",
-        "id": 5
-      },
-      {
-        "status": "new",
-        "megbizott": "Akárki",
-        "description": "jó",
-        "date": "2015-10-30T14:21:44.523Z",
-        "createdAt": "2015-10-30T14:21:44.526Z",
-        "updatedAt": "2015-10-30T14:21:44.526Z",
-        "id": 6
-      },
-      {
-        "status": "new",
-        "megbizott": "admin",
-        "description": "sad",
-        "date": "2015-10-30T14:23:22.117Z",
-        "createdAt": "2015-10-30T14:23:22.119Z",
-        "updatedAt": "2015-10-30T14:23:22.119Z",
-        "id": 7
       }
     ],
     "user": [
       {
         "forename": "admin",
-        "password": "$2a$10$jS3GPSQZFtHbCurR9iRQT.EySh1oNUGPq20.l9PeyB9mfzj.AADmy",
+        "password": "$2a$10$4RQqR5T7YsJ15OhDLRk4H.AmJIwmgiQ1XtpCcFeQ5Da2ukWstrWFK",
         "role": "parent",
-        "createdAt": "2015-10-29T10:11:09.628Z",
-        "updatedAt": "2015-10-29T10:11:09.628Z",
+        "createdAt": "2015-10-31T09:57:08.827Z",
+        "updatedAt": "2015-10-31T09:57:08.827Z",
         "id": 1
       },
       {
-        "forename": "teszt",
-        "password": "$2a$10$6TslWTnS7t5rVMkfOzPol.w8wQcgPWcO9.sYE9dUgpqkO.6bDai42",
+        "forename": "gábor",
+        "password": "$2a$10$33kQcLkr.aqZlpcW17oJFuNPQGTHHbOFtjpp./nysXClWe3nXQx86",
         "role": "child",
-        "createdAt": "2015-10-30T13:05:36.847Z",
-        "updatedAt": "2015-10-30T13:05:36.847Z",
+        "createdAt": "2015-10-31T09:58:00.506Z",
+        "updatedAt": "2015-10-31T09:58:00.506Z",
         "id": 2
+      },
+      {
+        "forename": "gyerek",
+        "password": "$2a$10$lnFEt8F/9R6xGCTDf7B4pOqaba6A94ZbVXY5nOam.2IqlavmIiFxK",
+        "role": "child",
+        "createdAt": "2015-10-31T10:00:24.337Z",
+        "updatedAt": "2015-10-31T10:00:24.337Z",
+        "id": 3
       }
     ]
   },
@@ -94,12 +75,6 @@
       },
       "description": {
         "type": "string"
-      },
-      "user": {
-        "type": "integer",
-        "model": "user",
-        "foreignKey": true,
-        "alias": "user"
       },
       "id": {
         "type": "integer",
@@ -145,10 +120,10 @@
   },
   "counters": {
     "todo": {
-      "id": 7
+      "id": 3
     },
     "user": {
-      "id": 2
+      "id": 3
     }
   }
 }

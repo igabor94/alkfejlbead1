@@ -120,7 +120,7 @@ TODO
 
 
 ### Dinamikus működés
-- #### Szekvenciadiagram
+#### Szekvenciadiagram
 ![Szekvenciadiagram](docs/images/szekv.png)
 
 

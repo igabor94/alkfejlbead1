@@ -1,0 +1,10 @@
+#direction: down
+#edgeMargin: 10
+#spacing: 150
+[<state>új]->adat[<state>feldolgozás alatt]
+[<state>feldolgozás alatt]->sikeres feldolgozás[<state>feldolgozva]
+[<state>feldolgozás alatt]->feldolgozási hiba[<state>elutasítva]
+
+[<state>feldolgozva]->megfelelő adatok[<state>kész]
+
+[<state>feldolgozva]->hibás adatok[<state>új]

@@ -1,0 +1,10 @@
+#direction: right
+[Todo|azonosító
+státusz
+megbizott
+feladat leírása
+rögzítés dátuma]
+[User|azonosító
+keresztnév
+jelszó
+jogosultság]

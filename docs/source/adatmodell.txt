@@ -1,0 +1,7 @@
+#direction: down
+[Todo|rögzítés dátuma
+státusz
+megbízott
+leírás] +-> [Módosítás|státusz
+megbízott
+leírás]

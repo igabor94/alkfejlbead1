@@ -1,0 +1,10 @@
+#direction: right
+[<start>st]->[<state>főoldal]
+[<state>főoldal]->[<state>bejelentkezés]
+[<state>bejelentkezés]->[<choice>sikeres?]
+
+[<choice>sikeres?]->igen[<state>feladat lista]
+[<state>bejelentkezés] <- nem[<choice>sikeres?]
+
+[<state>feladat lista] -> [<state>meglévő feladat módosítása]
+[<state>meglévő feladat módosítása] ->[<end>e]
